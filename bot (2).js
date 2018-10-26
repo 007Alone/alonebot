@@ -850,4 +850,4 @@ client.on('message',async message => {
 });
   
 
-client.login('NDk2MzM3NTM4MDgxMDk1Njgw.DqTlBQ.-FiCq7CzSQnHGXHbTEvO3Pipeps');
+client.login(process.env.BOT_TOKEN); 
