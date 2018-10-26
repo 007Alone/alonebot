@@ -850,22 +850,4 @@ client.on('message',async message => {
 });
   
 
-
-client1.on('ready', () => {
-console.log("Discord Bot By: iR25rR.?");
-  console.log('By: iR25rR.?')
-
-});
-client1.on("guildMemberAdd", member => {
-  member.createDM().then(function (author) {
-  return author.send(' **تنور سيرفرنا حبيبي  ** "https://discord.gg/dPsDD7"  ')
-
-
-
-}).catch(console.error)
-})
-
-
-
-
 client.login(process.env.BOT_TOKEN); 
